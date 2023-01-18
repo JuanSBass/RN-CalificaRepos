@@ -1,20 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import Mainpage from "./src/components/Mainpage.jsx"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Esto es una prueba!!!</Text>
-      <StatusBar style="auto" />
-    </View>
+      <Mainpage />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
